@@ -2,7 +2,7 @@
 
 ### Project team: Hung - Ayush
 1. **Vinh Hung Nguyen** - K2KY36
-2. **Shende Ayush Nitin** - WLIW35
+2. **Ayush Nitin Shende** - WLIW35
 
 ## Description
 This project aims to develop a deep learning model to diagnose dysphonic speech in multilingual scenarios and estimate the severity of the condition.
