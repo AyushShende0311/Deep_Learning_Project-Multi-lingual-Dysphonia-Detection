@@ -9,7 +9,7 @@ This project aims to develop a deep learning model to diagnose dysphonic speech 
 
 ### Data
 We are using audio data in multiple languages (Hungarian, English, German, Dutch), categorized by gender and speaker status (healthy or patient). The data is sourced directly to Google Colab from Google Drive.
-This dataset is substantial and has been sourced from various domains, primarily from the medical testing domain. We have obtained official consent to use the data for this project.
+This dataset is substantial and has been sourced from various domains, primarily from the medical testing domain. We have obtained official consent to use the data for this project and we received the data from BME university's database via the project instructor.
 
 
 ### Dataset Characteristics:
