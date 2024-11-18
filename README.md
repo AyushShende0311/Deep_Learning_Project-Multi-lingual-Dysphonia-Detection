@@ -22,7 +22,7 @@ This dataset is substantial and has been sourced from various domains, primarily
    Audio files in Hungarian, English, Dutch, and Portuguese were chunked to match the length of the German files using the `Chunking_Script.ipynb` notebook, which contains the `chunk_audio_in_folder` function.
 
 2. **Speaker Embeddings Extraction**  
-   We used a pretrained TDNN xvector model (via [SpeechBrain](https://huggingface.co/speechbrain/spkrec-xvect-voxceleb)) to extract speaker embeddings for each audio file. This process is detailed in the `EmbeddingModel.ipynb` notebook, and outputs a CSV file (`embeddings.csv`) with the following information:
+   We used a pretrained TDNN xvector model (via [SpeechBrain](https://huggingface.co/speechbrain/spkrec-xvect-voxceleb)) to extract speaker embeddings for each audio file. This process is detailed in the `EmbeddingModel.ipynb` notebook, and outputs a CSV file (`embeddings_final.csv`) with the following information:
    - `File_name`: Name of the chunked audio file.
    - `Embedding`: Speaker embedding.
    - `Category`: Indicator of healthy or dysphonic voice.
