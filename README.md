@@ -33,6 +33,6 @@ This CSV file forms the main dataset for training our machine learning model, wh
 
 ## Model
    For this project, we use Siamese Neural Network (SNN) as our model. 
-   <p align="center"><img width="90%" src="1_siamese-network.png" /></p>
+   <p align="center"><img width="70%" src="1_siamese-network.png" /></p>
 
 
