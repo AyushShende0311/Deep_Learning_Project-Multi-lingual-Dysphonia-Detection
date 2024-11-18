@@ -34,5 +34,5 @@ This CSV file forms the main dataset for training our machine learning model, wh
 ## Model
    For this project, we use Siamese Neural Network (SNN) as our model. 
    <p align="center"><img width="50%" src="1_siamese-network.png" /></p>
-
+   For running the model, to use SNN, pairs of embedding vectors which can be either similar or dissimilar (see `TrainingSN.ipynb` notebook - `DysphoniaPairsDataset`), after which we define the SNN architecture and train the model. 
 
