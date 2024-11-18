@@ -32,6 +32,7 @@ This dataset is substantial and has been sourced from various domains, primarily
 This CSV file forms the main dataset for training our machine learning model, which will detect specific patterns in the speech and identify the presence of dysphonia.
 
 ## Model
-   
+   For this project, we use Siamese Neural Network (SNN) as our model. 
+   <p align="center"><img width="90%" src="1_siamese-network.png" /></p>
 
 
