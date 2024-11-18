@@ -32,7 +32,10 @@ This dataset is substantial and has been sourced from various domains, primarily
 This CSV file forms the main dataset for training our machine learning model, which will detect specific patterns in the speech and identify the presence of dysphonia.
 
 ## Model
-   For this project, we use Siamese Neural Network (SNN) as our model. 
+   For this project, we use Siamese Neural Network (SNN) as our model. For running the model, to use SNN, pairs of embedding vectors are made which can be either similar or dissimilar (see `TrainingSN.ipynb` notebook - `DysphoniaPairsDataset`), after which we define the SNN architecture and train the model. The results are printed out in the same notebook.
    <p align="center"><img width="50%" src="1_siamese-network.png" /></p>
-   For running the model, to use SNN, pairs of embedding vectors which can be either similar or dissimilar (see `TrainingSN.ipynb` notebook - `DysphoniaPairsDataset`), after which we define the SNN architecture and train the model. 
-
+    
+## Reference
+   - https://builtin.com/machine-learning/siamese-network
+   - https://github.com/sudharsan13296/Hands-On-Meta-Learning-With-Python/blob/master/02.%20Face%20and%20Audio%20Recognition%20using%20Siamese%20Networks/2.5%20Audio%20Recognition%20using%20Siamese%20Network.ipynb
+   - https://en.wikipedia.org/wiki/Siamese_neural_network
