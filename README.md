@@ -28,6 +28,7 @@ This dataset is substantial and has been sourced from various domains, primarily
    - `Category`: Indicator of healthy or dysphonic voice.
    - `Gender`: Speaker's gender.
    - `Language`: Language of the audio file.
+   - `Speaker`: Speaker id 
 
 This CSV file forms the main dataset for training our machine learning model, which will detect specific patterns in the speech and identify the presence of dysphonia.
 
