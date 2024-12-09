@@ -28,13 +28,28 @@ This dataset is substantial and has been sourced from various domains, primarily
    - `Category`: Indicator of healthy or dysphonic voice.
    - `Gender`: Speaker's gender.
    - `Language`: Language of the audio file.
-   - `Speaker`: Speaker id 
+   - `Speaker`: Speaker id
+   
 
 This CSV file forms the main dataset for training our machine learning model, which will detect specific patterns in the speech and identify the presence of dysphonia.
 
 ## Model
    For this project, we use Siamese Neural Network (SNN) as our model. For running the model, to use SNN, pairs of embedding vectors are made which can be either similar or dissimilar (see `TrainingSN.ipynb` notebook - `DysphoniaPairsDataset`), after which we define the SNN architecture and train the model. The results are printed out in the same notebook.
    <p align="center"><img width="50%" src="1_siamese-network.png" /></p>
+   
+In **Milestone 3**, we introduced the following updates to the project:  
+
+1. **New Dataset File:**  
+   - Added `dataset.csv`, an enhanced version of `embeddings_final.csv` with an additional column:  
+     - **`speaker_id`**: Identifies the speaker for each data point.  
+2. **Final Model File:**  
+   - **`SiameseNetwork.ipynb`**: Contains the implementation of our final model for Milestone 3.  
+     - Includes significant upgrades made in this milestone to improve model performance and functionality.  
+
+## Usage Instructions  
+1. Load `dataset.csv` for model training and evaluation.  
+2. Open `SiameseNetwork.ipynb` to review or run the final model implementation.  
+
     
 ## Reference
    - https://builtin.com/machine-learning/siamese-network
